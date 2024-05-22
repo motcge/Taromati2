@@ -1,0 +1,9 @@
+name: print default git config
+on:
+  push
+jobs:
+  print-default-git-config:
+    runs-on: ubuntu-latest
+    steps:
+    - name: print default git config
+      run: git config --list

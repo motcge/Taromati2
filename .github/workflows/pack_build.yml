@@ -10,9 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: disable auto crlf
-      uses: steve02081504/disable-autocrlf@v1
-      with:
-        fuck-auto-CRLF: true
+      run: git config --global core.autocrlf false
+      shell: pwsh
     - uses: actions/checkout@v2
     - name: remove unneeded files
       run: |
