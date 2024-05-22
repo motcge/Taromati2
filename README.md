@@ -1,10 +1,8 @@
-﻿### 如何使用？  
-详见 https://github.com/Taromati2/mirror-list  
+﻿### 原始版本
 
-### 什么时候应当推送改动至镜像？  
- - BUG修复  
- - 实质性内容更新  
- - 半个月以上没有任何更新  
+详见 https://github.com/Taromati2/stable-mirror
 
-### 什么时候不应推送改动至镜像？  
- - 纯文件、代码整理  
+### 用途
+
+该版本暂时仅由个人用作学习与分析，可能会出现无法正常使用的问题
+如需使用 Taromati2 人格请前往原始版本的[人格下载](https://github.com/Taromati2/package-factory/releases)
