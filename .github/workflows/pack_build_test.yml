@@ -1,0 +1,17 @@
+name: full pack build
+
+on: [push]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: remove unneeded files
+      run: |
+        rm -rf "Taromati2/shell/Entire bare"
+    - name: upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: Taromati2_full
+        path: Taromati2
