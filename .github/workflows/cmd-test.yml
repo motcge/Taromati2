@@ -1,0 +1,11 @@
+name: cmd-test
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: rsync test
+        run: |
+          rsync --help
