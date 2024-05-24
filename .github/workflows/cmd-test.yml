@@ -9,3 +9,6 @@ jobs:
       - name: rsync test
         run: |
           rsync --help
+      - name: zip test
+        run: |
+          7z --help
